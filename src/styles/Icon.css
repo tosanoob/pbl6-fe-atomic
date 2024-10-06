@@ -1,0 +1,12 @@
+.icon {
+    font-size: 20px;
+    /* Kích thước biểu tượng */
+}
+
+/* Ví dụ cho biểu tượng */
+.icon-search:before {
+    content: '\f002';
+    /* Thay bằng mã unicode của biểu tượng */
+    font-family: 'Font Awesome 5 Free';
+    /* Thay bằng thư viện biểu tượng bạn đang sử dụng */
+}
